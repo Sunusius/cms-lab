@@ -1,11 +1,11 @@
 Karta projektu MP1 - Ziarno & Kocioł
 
-1. Fikcyjna firma
+###1. Fikcyjna firma
 Nazwa: Kawiarnia Ziarno & Kocioł
 Czym się zajmuje: Lokalna kawiarnia. Na miejscu kawa parzona, domowe ciasta, sprzedaż paczkowanej kawy ziarnistej oraz warsztaty parzenia kawy.
 Klienci: Studenci, freelancerzy szukający miejsca do pracy z laptopem oraz osoby z okolicy lubiące kawe.
 
-2. Persony
+###2. Persony
 
 Persona 1: Mateusz (24 lata, student / freelancer)
 Cel: Chce wpaść na parę godzin popracować, napić się dobrej kawy i coś zjeść.
@@ -20,7 +20,7 @@ Problem: W marketach brakuje ziaren z dobrych palarni, a na social mediach kawia
 Urządzenie: Komputer/laptop w domu.
 CTA: Kup kawę online/Zapisz się na warsztaty
 
-3. Mapa strony
+###3. Mapa strony
 
 1. Strona główna
 2. O nas
