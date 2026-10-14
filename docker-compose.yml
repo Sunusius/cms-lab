@@ -1,0 +1,28 @@
+services:
+  db:
+    image: mariadb:11
+    environment:
+      MARIADB_DATABASE: wordpress
+      MARIADB_USER: wp
+      MARIADB_PASSWORD: wp_haslo_tajne123
+      MARIADB_ROOT_PASSWORD: root_haslo_tajne123
+    volumes:
+      - db_data:/var/lib/mysql
+    ports:
+      - "8080:80"
+
+  wordpress:
+    image: wordpress:php8.3-apache
+    network_mode: "service:db"
+    depends_on:
+      - db
+    environment:
+      WORDPRESS_DB_HOST: 127.0.0.1
+      WORDPRESS_DB_USER: wp
+      WORDPRESS_DB_PASSWORD: wp_haslo_tajne123
+      WORDPRESS_DB_NAME: wordpress
+    volumes:
+      - ./wp-content:/var/www/html/wp-content
+
+volumes:
+  db_data:
