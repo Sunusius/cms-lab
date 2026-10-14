@@ -25,8 +25,7 @@ Persona 2: Kamila (32 lata, domowa baristka)
 
 Cel: Chce kupić świeżą paczkę ziaren i dowiedzieć się, kiedy są wolne terminy na warsztaty z parzenia kawy.
 
-Problem: W marketach brakuje ziaren z dobrych palarni, a na social mediach kawiarni ciężko znaleźć aktualny cennik i terminy   
-         warsztatów.
+Problem: W marketach brakuje ziaren z dobrych palarni, a na social mediach kawiarni ciężko znaleźć aktualny cennik i terminy warsztatów.
          
 Urządzenie: Komputer/laptop w domu.
 
