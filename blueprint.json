@@ -1,0 +1,36 @@
+{
+  "$schema": "https://playground.wordpress.net/blueprint-schema.json",
+  "landingPage": "/",
+  "login": true,
+  "steps": [
+    {
+      "step": "setSiteLanguage", "Language": "pl_PL"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='O nas' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Kontakt' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Polityka prywatności' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Oferta' --post_status=publish"
+    },
+    {
+      
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; $parent = get_page_by_path('oferta')->ID; wp_insert_post(['post_title' => 'Kawiarnia i menu', 'post_type' => 'page', 'post_status' => 'publish', 'post_parent' => $parent]); wp_insert_post(['post_title' => 'Ziarna na wynos', 'post_type' => 'page', 'post_status' => 'publish', 'post_parent' => $parent]); wp_insert_post(['post_title' => 'Warsztaty', 'post_type' => 'page', 'post_status' => 'publish', 'post_parent' => $parent]);"
+    },
+    {
+      
+      "step": "runPHP",
+      "code": "<?php require '/wordpress/wp-load.php'; wp_delete_post(1, true);"
+    }
+  ]
+}
