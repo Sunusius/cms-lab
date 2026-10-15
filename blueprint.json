@@ -3,10 +3,7 @@
   "landingPage": "/",
   "login": true,
   "steps": [
-    {
-      "step": "setSiteLanguage",
-      "language": "pl_PL"
-    },
+  { "step": "setSiteLanguage", "language": "pl_PL" },
     {
       "step": "wp-cli",
       "command": "wp post create --post_type=page --post_title='O nas' --post_status=publish"
