@@ -11,7 +11,7 @@ Klienci: Studenci, freelancerzy szukający miejsca do pracy z laptopem oraz osob
 
 ###2. Persony
 
-Persona 1: Mateusz (24 lata, student / freelancer)
+Persona 1: Mateusz (24 lata, student)
 
 Cel: Chce wpaść na parę godzin popracować, napić się dobrej kawy i coś zjeść.
 
@@ -21,7 +21,7 @@ Urządzenie: Smartfon (sprawdza knajpę w drodze).
 
 CTA: Zobacz menu i lokal
 
-Persona 2: Kamila (32 lata, domowa baristka)
+Persona 2: Kamila (32 lata, lubi kawe)
 
 Cel: Chce kupić świeżą paczkę ziaren i dowiedzieć się, kiedy są wolne terminy na warsztaty z parzenia kawy.
 
