@@ -2,18 +2,54 @@
   "$schema": "https://playground.wordpress.net/blueprint-schema.json",
   "landingPage": "/",
   "login": true,
+  "preferredVersions": {
+    "php": "8.2",
+    "wp": "latest"
+  },
   "steps": [
     {
       "step": "setSiteLanguage",
       "language": "pl_PL"
     },
     {
+      "step": "installTheme",
+      "themeData": {
+        "resource": "wordpress.org/themes",
+        "slug": "twentytwentyfive"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
+      "step": "installPlugin",
+      "pluginData": {
+        "resource": "wordpress.org/plugins",
+        "slug": "contact-form-7"
+      },
+      "options": {
+        "activate": true
+      }
+    },
+    {
       "step": "wp-cli",
-      "command": "wp option update blogname 'Kawiarnia Ziarno&Kawa'"
+      "command": "wp option update blogname 'Ziarno&Kawa'"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post delete 1 --force"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Strona główna' --post_status=publish"
     },
     {
       "step": "wp-cli",
       "command": "wp post create --post_type=page --post_title='O nas' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Oferta' --post_status=publish"
     },
     {
       "step": "wp-cli",
@@ -24,21 +60,8 @@
       "command": "wp post create --post_type=page --post_title='Polityka prywatności' --post_status=publish"
     },
     {
-      "step": "wp-cli",
-      "command": "wp post create --post_type=page --post_title='Oferta' --post_status=publish"
-    },
-    {
       "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php'; $parent = get_page_by_path('oferta')->ID; wp_insert_post(['post_title' => 'Kawiarnia i menu', 'post_type' => 'page', 'post_status' => 'publish', 'post_parent' => $parent]); wp_insert_post(['post_title' => 'Ziarna na wynos', 'post_type' => 'page', 'post_status' => 'publish', 'post_parent' => $parent]); wp_insert_post(['post_title' => 'Warsztaty', 'post_type' => 'page', 'post_status' => 'publish', 'post_parent' => $parent]);"
-    },
-    {
-      "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php'; wp_delete_post(1, true);"
+      "code": "<?php require '/wordpress/wp-load.php'; $home = get_page_by_path('strona-glowna'); if ($home) { update_option('show_on_front', 'page'); update_option('page_on_front', $home->ID); }"
     }
-  ],
-  "preferredVersions": {
-    "wp": "latest",
-    "php": "8.3"
-  },
-  "features": {}
+  ]
 }
