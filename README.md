@@ -1,4 +1,4 @@
-Karta projektu MP1 - Ziarno & Kocioł
+Karta projektu MP1 - Ziarno&Kawa
 
 ###1. Fikcyjna firma
 
