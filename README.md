@@ -2,7 +2,7 @@ Karta projektu MP1 - Ziarno&Kawa
 
 ###1. Fikcyjna firma
 
-Nazwa: Kawiarnia Ziarno & Kocioł
+Nazwa: Kawiarnia Ziarno&Kawa
 
 Czym się zajmuje:
 Lokalna kawiarnia. Na miejscu kawa parzona, domowe ciasta, sprzedaż paczkowanej kawy ziarnistej oraz warsztaty parzenia kawy.
