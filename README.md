@@ -43,6 +43,6 @@ CTA: Kup kawę online/Zapisz się na warsztaty
 5. Polityka prywatności
 
 ###4. Dlaczego Wordpress?
-Wordpress dlatego, że jest najpopularniejszy na świecie według danych z W3Techs. Dzięki temu jest dostępnych wiele darmowych wtyczek oraz motywów.
-Nie wymaga płacenia miesięcznych subskrypcji ani prowizji od sprzedaży towarów. Jest prostszy w użyciu niż np Drupal.
-Pracownicy kawiarni mogą samodzielnie aktualizować menu na stronie bez potrzeby angażowania w to programisty.
+Wordpress dlatego, że jest najpopularniejszy na świecie według danych z W3Techs. Udział przekraczający 63% wśród systemów zarządzania treścią. Dzięki temu jest dostępnych wiele darmowych wtyczek oraz motywów.
+Nie wymaga płacenia miesięcznych subskrypcji ani prowizji od sprzedaży towarów za używanie silnika cms. Jest prostszy w użyciu niż np Drupal.
+Pracownicy kawiarni mogą samodzielnie aktualizować menu na stronie bez potrzeby angażowania w to programisty dlatego, że wordpress posiada intuicyjny edytor blokowy.
