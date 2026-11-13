@@ -39,8 +39,9 @@ CTA: Kup kawę online/Zapisz się na warsztaty
   - Kawiarnia i menu
   - Ziarna na wynos
   - Warsztaty
-4. Kontakt
-5. Polityka prywatności
+4. Aktualności
+5. Kontakt
+6. Polityka prywatności
 
 ###4. Dlaczego Wordpress?
 Wordpress dlatego, że jest najpopularniejszy na świecie według danych z W3Techs. Udział przekraczający 63% wśród systemów zarządzania treścią. Dzięki temu jest dostępnych wiele darmowych wtyczek oraz motywów.
