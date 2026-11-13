@@ -50,6 +50,7 @@ Pracownicy kawiarni mogą samodzielnie aktualizować menu na stronie bez potrzeb
 
 ### Sekcja Użycia AI
 1 Występowały problemy z przekierowaniem podstron w wordpress do localhost. Ai zasugerowało utworzenie wtyczki fix-codespaces.php w katalogu wp-content/mu-plugins.
+
 2 Konfiguracja przyjaznych adresów permalink. Pomimo ustawienia permalink na post name. Podstrony wyrzucały błąd 404. Ai pomogło właczyć moduł mod_rewrite w serwerze Apache oraz obsługa pliku .htaccess. Serwer wyszukiwał wewnatrz kontenera plików wordpress typu podstron oferta itp nie znajdywał ich i wyrzucał błąd. Ai wygenerowało plik w katalogu z nowymi regułami przypisywania tych zapytań. Wordpress dopiero na podstawie tych ścieżek pobierał odpowiednią treść podstrony z bazy danych.
 
 3. Ai pomogło w wygenrowaniu kodu do podstron - układu sekcji na podstronach w oparciu o znaczniki sekcji bloków w wordpresie.
