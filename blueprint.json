@@ -37,47 +37,47 @@
     },
     {
       "step": "wp-cli",
-      "command": "wp post delete 1 --force"
+      "command": "wp post delete 1 2 --force"
     },
     {
       "step": "wp-cli",
-      "command": "wp post create --post_type=page --post_title='Strona główna' --post_status=publish"
+      "command": "wp post create --post_type=page --post_title='Strona główna' --post_status=publish --menu_order=1"
     },
     {
       "step": "wp-cli",
-      "command": "wp post create --post_type=page --post_title='O nas' --post_status=publish"
+      "command": "wp post create --post_type=page --post_title='O nas' --post_status=publish --menu_order=2"
     },
     {
       "step": "wp-cli",
-      "command": "wp post create --post_type=page --post_title='Oferta' --post_status=publish"
+      "command": "wp post create --post_type=page --post_title='Oferta' --post_status=publish --menu_order=3"
     },
     {
       "step": "wp-cli",
-      "command": "wp post create --post_type=page --post_title='Kontakt' --post_status=publish"
+      "command": "wp post create --post_type=page --post_title='Aktualności' --post_status=publish --menu_order=4"
     },
     {
       "step": "wp-cli",
-      "command": "wp post create --post_type=page --post_title='Polityka prywatności' --post_status=publish"
+      "command": "wp post create --post_type=page --post_title='Kontakt' --post_status=publish --menu_order=5"
     },
     {
       "step": "wp-cli",
-      "command": "wp post create --post_type=page --post_title='Aktualności' --post_status=publish"
+      "command": "wp post create --post_type=page --post_title='Polityka prywatności' --post_status=publish --menu_order=6"
     },
     {
       "step": "wp-cli",
-      "command": "wp post create --post_type=page --post_title='Kawiarnia i menu' --post_status=publish"
+      "command": "wp post create --post_type=page --post_title='Kawiarnia i menu' --post_status=publish --menu_order=1"
     },
     {
       "step": "wp-cli",
-      "command": "wp post create --post_type=page --post_title='Warsztaty' --post_status=publish"
+      "command": "wp post create --post_type=page --post_title='Ziarna na wynos' --post_status=publish --menu_order=2"
     },
     {
       "step": "wp-cli",
-      "command": "wp post create --post_type=page --post_title='Ziarna na wynos' --post_status=publish"
+      "command": "wp post create --post_type=page --post_title='Warsztaty' --post_status=publish --menu_order=3"
     },
     {
       "step": "runPHP",
-      "code": "<?php require '/wordpress/wp-load.php'; $home = get_page_by_path('strona-glowna'); if ($home) { update_option('show_on_front', 'page'); update_option('page_on_front', $home->ID); }"
+      "code": "<?php require '/wordpress/wp-load.php'; $home = get_page_by_path('strona-glowna'); if ($home) { update_option('show_on_front', 'page'); update_option('page_on_front', $home->ID); } $aktualnosci = get_page_by_path('aktualnosci'); if ($aktualnosci) { update_option('page_for_posts', $aktualnosci->ID); } $oferta = get_page_by_path('oferta'); if ($oferta) { foreach (['kawiarnia-i-menu', 'ziarna-na-wynos', 'warsztaty'] as $slug) { $sub = get_page_by_path($slug); if ($sub) { wp_update_post(['ID' => $sub->ID, 'post_parent' => $oferta->ID]); } } }"
     }
   ]
 }
