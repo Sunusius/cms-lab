@@ -60,6 +60,22 @@
       "command": "wp post create --post_type=page --post_title='Polityka prywatności' --post_status=publish"
     },
     {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Aktualności' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Kawiarnia i menu' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Warsztaty' --post_status=publish"
+    },
+    {
+      "step": "wp-cli",
+      "command": "wp post create --post_type=page --post_title='Ziarna na wynos' --post_status=publish"
+    },
+    {
       "step": "runPHP",
       "code": "<?php require '/wordpress/wp-load.php'; $home = get_page_by_path('strona-glowna'); if ($home) { update_option('show_on_front', 'page'); update_option('page_on_front', $home->ID); }"
     }
