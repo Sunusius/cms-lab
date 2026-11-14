@@ -69,4 +69,12 @@ Ai wygenerowało plik w katalogu z nowymi regułami przypisywania tych zapytań.
 # POPRAWKI: Opisy grafiki wymagały lekkiej poprawy spójności tego co jest na grafice.
 - Jako że nie znam się na kawie, opisy do wpisów w blogu/ Aktualności też wygenerowało AI. 
 
+# MP1 L03 G1
+- Weryfikacja kontrastu przez DevTools zgodnie z WCAG AA
+treść główna - tekst #191919 tło #FAF7F2 kontrast 16.45:1 wynik ok
+linki - tekst #5C3A21 tło #FAF7F2 kontrast 9,43:1 wynik ok 
+przyciski CTA tekst #FAF7F2 tło #5C3A21 kontrast 9.43:1 wynik ok
+Elementy akcentujące tekst #8C4a27 tło #FAF7F2 kontrast 6.38:1 wynik ok
+Nagłówek na zdjęciu Hero tekst #FFFFFF tło #1E1A17 Kontrast 17.28:1 wynik ok
+
 
