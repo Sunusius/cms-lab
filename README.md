@@ -1,6 +1,10 @@
 Karta projektu MP1 - Ziarno&Kawa
 
-###1. Fikcyjna firma
+## Podgląd projektu przez link (WordPress Playground)
+https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/Sunusius/cms-lab/main/blueprint.json
+
+
+### 1. Fikcyjna firma
 
 Nazwa: Kawiarnia Ziarno&Kawa
 
@@ -9,7 +13,7 @@ Lokalna kawiarnia. Na miejscu kawa parzona, domowe ciasta, sprzedaż paczkowanej
 
 Klienci: Studenci, freelancerzy szukający miejsca do pracy z laptopem oraz osoby z okolicy lubiące kawe.
 
-###2. Persony
+### 2. Persony
 
 Persona 1: Mateusz (24 lata, student)
 
@@ -31,7 +35,7 @@ Urządzenie: Komputer/laptop w domu.
 
 CTA: Kup kawę online/Zapisz się na warsztaty
 
-###3. Mapa strony
+### 3. Mapa strony
 
 1. Strona główna
 2. O nas
@@ -43,7 +47,7 @@ CTA: Kup kawę online/Zapisz się na warsztaty
 5. Kontakt
 6. Polityka prywatności
 
-###4. Dlaczego Wordpress?
+### 4. Dlaczego Wordpress?
 Wordpress dlatego, że jest najpopularniejszy na świecie według danych z W3Techs. Udział przekraczający 63% wśród systemów zarządzania treścią. Dzięki temu jest dostępnych wiele darmowych wtyczek oraz motywów.
 Nie wymaga płacenia miesięcznych subskrypcji ani prowizji od sprzedaży towarów za używanie silnika cms. Jest prostszy w użyciu niż np Drupal.
 Pracownicy kawiarni mogą samodzielnie aktualizować menu na stronie bez potrzeby angażowania w to programisty dlatego, że wordpress posiada intuicyjny edytor blokowy.
@@ -57,12 +61,12 @@ Ai wygenerowało plik w katalogu z nowymi regułami przypisywania tych zapytań.
 
 3. Ai pomogło w wygenrowaniu kodu do podstron - układu sekcji na podstronach w oparciu o znaczniki sekcji bloków w wordpresie.
 
-#POPRAWKI : Musiałem nanieść poprawki składniowe - Poprawa nawiasów w odpowiednich miejscach
+# POPRAWKI : Musiałem nanieść poprawki składniowe - Poprawa nawiasów w odpowiednich miejscach
 
 4 Tworzenie treści graficznych jak i tekstowych.
 - Ai wygenerowało obrazy.
   
-#POPRAWKI: Opisy grafiki wymagały lekkiej poprawy spójności tego co jest na grafice.
+# POPRAWKI: Opisy grafiki wymagały lekkiej poprawy spójności tego co jest na grafice.
 - Jako że nie znam się na kawie, opisy do wpisów w blogu/ Aktualności też wygenerowało AI. 
 
 
