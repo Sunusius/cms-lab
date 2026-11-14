@@ -77,4 +77,13 @@ przyciski CTA tekst #FAF7F2 tło #5C3A21 kontrast 9.43:1 wynik ok
 Elementy akcentujące tekst #8C4a27 tło #FAF7F2 kontrast 6.38:1 wynik ok
 Nagłówek na zdjęciu Hero tekst #FFFFFF tło #1E1A17 Kontrast 17.28:1 wynik ok
 
+# MP1 l03 G2
+- Wstawiłem dodatkowy CSS zgodnie z WCAG 2.2 : focus klawiatury - weryfikacja klawiszem tab, odstep przewijania, minimalne cele dotykowe, płynna typografia nagłówka H1
+- Weryfikacja RWD na szerokosci 375 px w DevTools - poprawiony pionowy odstęp między kolumnami na ekranach mobilnych i wysokość okładek.
 
+# Użycie AI L03 G1 G2
+- Przygotowanie struktur i propozycji reguł CSS w dodatkowy css
+# Poprawiono
+ - Weryfikacja kontrastów ręczna
+ - Testy focusu i widoku mobilnego
+ - Korekta CSS na urządzenia mobilne - poprawiono braki w odstępach kolumn w sekcji Dlaczego Ziarno&Kawa oraz zbyt wysokie bloki okładek. Ręcznie poprawiłem kod marginesu dolnego i zmniejszyłem wysokość
