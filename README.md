@@ -54,11 +54,11 @@ Pracownicy kawiarni mogą samodzielnie aktualizować menu na stronie bez potrzeb
 2 Konfiguracja przyjaznych adresów permalink. Pomimo ustawienia permalink na post name. Podstrony wyrzucały błąd 404. Ai pomogło właczyć moduł mod_rewrite w serwerze Apache oraz obsługa pliku .htaccess. Serwer wyszukiwał wewnatrz kontenera plików wordpress typu podstron oferta itp nie znajdywał ich i wyrzucał błąd. Ai wygenerowało plik w katalogu z nowymi regułami przypisywania tych zapytań. Wordpress dopiero na podstawie tych ścieżek pobierał odpowiednią treść podstrony z bazy danych.
 
 3. Ai pomogło w wygenrowaniu kodu do podstron - układu sekcji na podstronach w oparciu o znaczniki sekcji bloków w wordpresie.
-POPRAWKI : Musiałem nanieść poprawki składniowe - Poprawa nawiasów w odpowiednich miejscach
+#POPRAWKI : Musiałem nanieść poprawki składniowe - Poprawa nawiasów w odpowiednich miejscach
 
 4 Tworzenie treści graficznych jak i tekstowych.
 - Ai wygenerowało obrazy.
- POPRAWKI: Opisy grafiki wymagały lekkiej poprawy spójności tego co jest na grafice.
- - Jako że nie znam się na kawie, opisy do wpisów w blogu/ Aktualności też wygenerowało AI. 
+#POPRAWKI: Opisy grafiki wymagały lekkiej poprawy spójności tego co jest na grafice.
+- Jako że nie znam się na kawie, opisy do wpisów w blogu/ Aktualności też wygenerowało AI. 
 
 
