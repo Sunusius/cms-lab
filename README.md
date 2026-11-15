@@ -87,3 +87,9 @@ Nagłówek na zdjęciu Hero tekst #FFFFFF tło #1E1A17 Kontrast 17.28:1 wynik ok
  - Weryfikacja kontrastów ręczna
  - Testy focusu i widoku mobilnego
  - Korekta CSS na urządzenia mobilne - poprawiono braki w odstępach kolumn w sekcji Dlaczego Ziarno&Kawa oraz zbyt wysokie bloki okładek. Ręcznie poprawiłem kod marginesu dolnego i zmniejszyłem wysokość
+
+ # MP1 L03 G3
+  Użycie AI
+  Wygenerował regułe aditional css. Dodaliśmy bazowy kolor tła background #1E1A17 dla bloków wp-block-cover. Zbezpieczył kontrast dla białego tekstu w razie nie załadowania obrazu w tle.
+
+  DO L03 praca własna - zdjęcia przeprowadzonego audytu w folderze zdjęcia audytu.
