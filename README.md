@@ -93,3 +93,28 @@ Nagłówek na zdjęciu Hero tekst #FFFFFF tło #1E1A17 Kontrast 17.28:1 wynik ok
   Wygenerował regułe aditional css. Dodaliśmy bazowy kolor tła background #1E1A17 dla bloków wp-block-cover. Zbezpieczył kontrast dla białego tekstu w razie nie załadowania obrazu w tle.
 
   DO L03 praca własna - zdjęcia przeprowadzonego audytu w folderze zdjęcia audytu.
+
+  # MP1 L03 G4
+  ## Źródła i licencje (G4)
+
+Wszystkie zasoby graficzne, typograficzne, wtyczki oraz oprogramowanie użyte w projekcie **Ziarno & Kawa** pochodzą z legalnych źródeł otwartego oprogramowania lub wolnych licencji:
+
+| Kategoria | Zasób / Plik | Autor | Licencja | Link źródłowy |
+| :--- | :--- | :--- | :--- | :--- |
+| **System CMS** | WordPress | Społeczność WordPress | GNU GPLv2+ | https://wordpress.org/ |
+| **Motyw** | Twenty Twenty-Five | WordPress.org | GNU GPLv2+ | https://wordpress.org/themes/twentytwentyfive/ |
+| **Wtyczka** | Akismet Anti-spam (`wp-content/plugins/akismet`) | Automattic | GNU GPLv2+ | https://wordpress.org/plugins/akismet/ |
+| **Wtyczka** | Hello Dolly (`wp-content/plugins/hello.php`) | Matt Mullenweg | GNU GPLv2+ | https://wordpress.org/plugins/hello-dolly/ |
+| **Font (lokalny)** | **Lora** (`Lora-VariableFont_wght.ttf`, `Lora-Italic-VariableFont_wght.ttf`) | Cyreal (Olga Umpeleva, Alexei Vanyashin) | SIL Open Font License 1.1 (OFL) | https://fonts.google.com/specimen/Lora |
+| **Font (motyw)** | **Manrope** | Mikhail Sharanda | SIL Open Font License 1.1 (OFL) | https://fonts.google.com/specimen/Manrope |
+| **Font (motyw)** | **Fira Code** | Nikita Prokopov | SIL Open Font License 1.1 (OFL) | https://fonts.google.com/specimen/Fira+Code |
+| **Zdjęcie 1 (Hero / Baner)** | `1fb41f88-fbfa-432e-a740-4475babdb41e.webp` | Autor z Unsplash / Openverse | Unsplash License / CC0 | https://unsplash.com/ |
+| **Zdjęcie 2 (Sekcja / O nas)** | `adc6a64b-f5d8-4050-8b82-989eb6aedacc.webp` | Autor z Unsplash / Openverse | Unsplash License / CC0 | https://unsplash.com/ |
+| **Zdjęcie 3 (Karta 1)** | `swieze-palenie-kawy-kolumna-1.webp` (Świeże palenie kawy) | Autor z Unsplash / Openverse | Unsplash License / CC0 | https://unsplash.com/ |
+| **Zdjęcie 4 (Karta 2)** | `kolumna-2.webp` (Oferta / Kawa) | Autor z Unsplash / Openverse | Unsplash License / CC0 | https://unsplash.com/ |
+| **Zdjęcie 5 (Karta 3)** | `kolumna-3.webp` (Oferta / Parzenie) | Autor z Unsplash / Openverse | Unsplash License / CC0 | https://unsplash.com/ |
+| **Ikony** | Wbudowane ikony bloków WordPress (SVG) | Społeczność WordPress | GNU GPLv2+ | https://wordpress.org/ |
+
+## Użycie AI
+
+Narzędzia AI zostały wykorzystane pomocniczo przy weryfikacji źródeł oraz zestawieniu licencji dla użytych motywów, wtyczek, lokalnych fontów i zdjęć.
