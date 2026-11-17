@@ -147,4 +147,15 @@ Narzędzia AI zostały wykorzystane pomocniczo przy weryfikacji źródeł oraz z
   Klawiatura - przeklikałem cały formularz przez TAB.
   axe DevTools: Przeskanowałem podstronę Kontakt wtyczką axe DevTools, która nie zgłosiła błędów.
 
+  # B2 L03 Preferencje użytkownika
+  - W sekcji Additional Css dodałem obsługę systemowych preferencji dostępności oraz linku szybkiego przejścia do treści.
+  - Wyłączyłem płynne przewijanie ruchu. Skróciłem czas trwania animacji i przejść do minimum.
+  - Przy systemowym trybie wysokiego kontrastu dodałem wyraźne obramowanie dla przycisków blokowych.
+  - skip link znajduje się na stałe w lewym górnym rogu.
+  # Testy
+  - Nawigacja klawiaturą TAB  - skip link pojawia się jako pierwszy interaktywny element po wejściu na stronę i po kliknięciu ENTER przenosi bezpośrednio na główną sekcje treści.
+  - Test Emulacja w DevTools. Włączyłem opcje rendering. Animacje zostały wyłączone a przyciski zachowały obramowanie.
+  - Test czytnika ekranu. Nagłówki oraz etykiety pól są czytane poprawnie.
+
+
 
