@@ -118,3 +118,33 @@ Wszystkie zasoby graficzne, typograficzne, wtyczki oraz oprogramowanie użyte w 
 ## Użycie AI
 
 Narzędzia AI zostały wykorzystane pomocniczo przy weryfikacji źródeł oraz zestawieniu licencji dla użytych motywów, wtyczek, lokalnych fontów i zdjęć.
+
+# Zadanie rozszerzone B1 L03 Formularz kontaktowy
+  Formularz kontaktowy na podstronie Kontakt zrobiłem przy pomocy wtyczki Contact form 7.
+  Nad samym formularzem dodałem nagłówek "Napisz do nas!", żeby cała sekcja była lepiej uporządkowana i łatwiejsza do znalezienia podczas poruszania się po nagłówkach.
+
+  Formularz zawiera:
+  - Widoczne etykiety <label> Każde pole (imie naziwsko email wiadomosć oraz RODO) ma swoją widoczną etykietę.
+  Dzięki temu wiadomo od razu co wpisać. Kliknięcie w tekst etykiety aktywuje pole danej etykiety.
+
+  - Podpowiedzi autocomplete w polach na imie i nazwisko, adres email dodałem atrybuty aoutcomplete:name oraz autocomplete:email żeby przeglądarka mogła automatycznie podpowiadać zapisane dane uzytkownika.
+
+  - Oznaczenie wymaganych pól i komunikaty. Przy każdym wymaganym polu w tekscie etykiety dopisałem (wymagane). Zamieniłem domyslne komunikaty po angielsku na tekst po polsku.
+
+  - Zgoda RODO, Checkbox jest domyślnie odznaczony co wymusza na użytkowniku zaznaczenie go samodzielnie.
+  
+  # Kryteria WCAG2.2AA Accessible Authentication
+
+  W formularzu zrobiłęm ukryte pole pułapkę, które jest schowane poza ekranem za pomocą CSS oraz ukryte przed czytnikami ekranu. Zwykły uzytkownik tego pola nie widzi i pomija je przy przechodzeniu klawiszem TAB, natomiast bot spamujący je wypełni.
+
+  # WCAG 2.5.8 Target Size
+
+  Sprawdziłem wszystkie klikalne elementy w formularzu. Mają rozmiar minimum 24x24px.
+  - rozmiar przycisku Wyślij wiadomość 157x06x44px
+  - pola tekstowe wysokość ponad 40px - trzeba było zmienić bo przeglądarka domyślnie ustawiła na 21px. Dla pól email i imie nazwisko.
+
+  # Test formularza
+  Klawiatura - przeklikałem cały formularz przez TAB.
+  axe DevTools: Przeskanowałem podstronę Kontakt wtyczką axe DevTools, która nie zgłosiła błędów.
+
+
