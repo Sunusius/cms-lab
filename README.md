@@ -1,4 +1,6 @@
 Karta projektu MP1 - Ziarno&Kawa
+**info**
+Wersja projektu MP1 znajduje się w gałęzi mp1. Dalej na gałęzi Main rozwijane są zadania do MP2
 
 ## Podgląd projektu przez link (WordPress Playground)
 https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/Sunusius/cms-lab/main/blueprint.json
