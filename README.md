@@ -1,5 +1,5 @@
 ## Karta Projektu MP2 - Ziarno&Kawa
-
+# L04
 # Zad G1 utworzono szkielet motywu. Motyw zgodnie z instrukcją widoczny jest w zakładce motywy.
 
 # zad G2
@@ -20,10 +20,13 @@
 - Wkład własny: utworzenie i konfiguracja plików w Codespace, dostosowanie treści, weryfikacja każdego widoku w edytorze Wordpress
 
 
-
-
-
-
+# zad G1
+ -Zmodyfikowano część szablonu w header. Ciemnozielone tło oraz tytuł- kolor marki zmieniono na kremowy z czarnego.
+ -Użyłem wtyczki Create Block Theme żeby przenieść zmiany bezpośrednio do pliuków motywu w repozytorium.
+ -Zweryfikowałem zmiany poleceniem git status i git diff
+ -Dodałem reguły ignorowania paczek zip/
+  - wyexportowałem motyw do zip ziarno i kawa zip za pomoca wtyczki.
+  W playground zainstalowałem i aktywowałem paczkę zip w czystym playground co potwierdziło zmianę palety kolorów.
 
 
 
