@@ -20,13 +20,13 @@
 - Wkład własny: utworzenie i konfiguracja plików w Codespace, dostosowanie treści, weryfikacja każdego widoku w edytorze Wordpress
 
 
-# zad G1
- -Zmodyfikowano część szablonu w header. Ciemnozielone tło oraz tytuł- kolor marki zmieniono na kremowy z czarnego.
- -Użyłem wtyczki Create Block Theme żeby przenieść zmiany bezpośrednio do pliuków motywu w repozytorium.
- -Zweryfikowałem zmiany poleceniem git status i git diff
- -Dodałem reguły ignorowania paczek zip/
-  - wyexportowałem motyw do zip ziarno i kawa zip za pomoca wtyczki.
-  W playground zainstalowałem i aktywowałem paczkę zip w czystym playground co potwierdziło zmianę palety kolorów.
+# zad G3
+  -Zmodyfikowano część szablonu w header. Ciemnozielone tło oraz tytuł- kolor marki zmieniono na kremowy z czarnego.
+  -Użyłem wtyczki Create Block Theme żeby przenieść zmiany bezpośrednio do pliuków motywu w repozytorium.
+  -Zweryfikowałem zmiany poleceniem git status i git diff
+  -Dodałem reguły ignorowania paczek zip/
+  -wyexportowałem motyw do zip ziarno i kawa zip za pomoca wtyczki.
+  -W playground zainstalowałem i aktywowałem paczkę zip w czystym playground co potwierdziło zmianę palety kolorów.
 
 
 
@@ -37,7 +37,7 @@
 
 Karta projektu MP1 - Ziarno&Kawa
 **info**
-Wersja projektu MP1 znajduje się w gałęzi mp1. Dalej na gałęzi Main rozwijane są zadania do MP2
+# Wersja projektu MP1 znajduje się w gałęzi mp1. Dalej na gałęzi Main rozwijane są zadania do MP2
 
 ## Podgląd projektu przez link (WordPress Playground)
 https://playground.wordpress.net/?blueprint-url=https://raw.githubusercontent.com/Sunusius/cms-lab/main/blueprint.json
