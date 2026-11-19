@@ -1,3 +1,37 @@
+## Karta Projektu MP2 - Ziarno&Kawa
+
+# Zad G1 utworzono szkielet motywu. Motyw zgodnie z instrukcją widoczny jest w zakładce motywy.
+
+# zad G2
+  Po dodaniu templates/index.html witryna wyswietla treść bez urwanego tekstu. Strona ładuje pełną treść z sekcji Hero oraz reszty sekcji. Obrazy załadowały się poprawnie.
+
+# Typy widoku szablonów każdej witryny:
+
+  -Strona główna, używany szablon page.html
+  -Podstrony (O nas, Oferta, Kontakt Polityka prywatności) używaja widoku page.html
+  -Podstrona Aktualności (wpisy blogowe) widok szablonu index.html
+  -Wpisy na stronie Aktualności widok szablonu single.html
+  -Kategorie wpisów widok archive.html
+  -Szablon 404 po sprawdzeniu w szablonach/Templates wyswietla widok 404.html
+
+# Uzycie Ai
+-Pomoc przy wyjaśnieniu hierarchi szablonów motywów blokowych i pomoc w przygotowaniu plików HTML szablonów.
+
+- Wkład własny: utworzenie i konfiguracja plików w Codespace, dostosowanie treści, weryfikacja każdego widoku w edytorze Wordpress
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 Karta projektu MP1 - Ziarno&Kawa
 **info**
 Wersja projektu MP1 znajduje się w gałęzi mp1. Dalej na gałęzi Main rozwijane są zadania do MP2
