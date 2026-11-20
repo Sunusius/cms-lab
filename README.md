@@ -21,15 +21,26 @@
 
 
 # zad G3
-  -Zmodyfikowano część szablonu w header. Ciemnozielone tło oraz tytuł- kolor marki zmieniono na kremowy z czarnego.
-  -Użyłem wtyczki Create Block Theme żeby przenieść zmiany bezpośrednio do pliuków motywu w repozytorium.
-  -Zweryfikowałem zmiany poleceniem git status i git diff
-  -Dodałem reguły ignorowania paczek zip/
-  -wyexportowałem motyw do zip ziarno i kawa zip za pomoca wtyczki.
-  -W playground zainstalowałem i aktywowałem paczkę zip w czystym playground co potwierdziło zmianę palety kolorów.
+  - Zmodyfikowano część szablonu w header. Ciemnozielone tło oraz tytuł- kolor marki zmieniono na kremowy z czarnego.
+  - Użyłem wtyczki Create Block Theme żeby przenieść zmiany bezpośrednio do pliuków motywu w repozytorium.
+  - Zweryfikowałem zmiany poleceniem git status i git diff
+  - Dodałem reguły ignorowania paczek zip/
+  - wyexportowałem motyw do zip ziarno i kawa zip za pomoca wtyczki.
+  - W playground zainstalowałem i aktywowałem paczkę zip w czystym playground co potwierdziło zmianę palety kolorów.
 
+# B1 Warianty stylu.
+  - Utworzono katalog styles w motywie ziarno-i-kawa i zapisano dwa warianty ciemny.json i sezonowy.json z zachowaniem 5 slugów z theme.json.
+  - Raport z Wave potwierdza kontrast ratio minimum 4.5:1.
+  - Przykładowo wariant ciemny.json. Kalkulator contrastu Wave pokazuje zestawienie kolorów dla tekst #F5EFE6 i tła #16110E wynik 16.39:1 - pass
+  - Dla wariantu sezonowy.json. Kontrast tekstu #241711 i tło #FDF8F3 wynik 16.5:1 pass
 
+# Uzycie Ai dla B1
+ - Wygenerował propozycje dla palet kolorystycznych. Kody # dla wariantu ciemnego i sezonowego dopasowanych do istniejących slugów w theme.json
 
+ # Poprawki ai
+ - Wyliczał mi wstępnie przykładowy kontrast dla wariantów. Więc po sprawdzeniu w kalkulatorze Wave wyniki były różne.
+
+  
 
 
 
