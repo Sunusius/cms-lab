@@ -47,7 +47,14 @@
   # Użycie AI dla L05 G1
   - Wygenerowanie kodu CSS do zmiany kroju nagłówków oraz koloru linków w pliku style.css, motywu potomnego mf-child.
   - Poprawki: ręczne dopasowanie koloru akcentu #8C4A27 oraz tła #FAF6F0 i tekstu #2C1E16 do dokładnych wartości z pliku ziarno-i-kawa/theme.json z MP1.
+## L05 G2
+- Utworzono szablon page-o-nas.php w motywie potomnym mf-child dla strony o slugu o-nan.
+- Zastosowano klasę .mf-o-nas oraz bezpieczne wyświetlanie danych esc_html, esc_url i tłumaczenia text-domain: mf-child dla sekcji z danymi palarni i godzinami otwarcia.
+- Dodano dedykowane style CSS dla klasy .mf-o-nas i ramki kontaktowej .mf-company-box w pliku style.css
 
+### Użycie AI dla L05 G2
+- Wygenerowanie struktury szablonu `page-o-nas.php` z poprawną pętlą WordPress, funkcjami escapowania, internacjonalizacji oraz dedykowanych stylów CSS dla klasy .mf-o-nas.
+- Poprawki: ręczne poprawianie paragrafów <p> w page-o-nas.php
 
 
 

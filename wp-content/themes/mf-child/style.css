@@ -37,3 +37,29 @@ a:focus,
 .entry-content a:hover {
 	color: var(--mf-accent-hover);
 }
+/* Zadanie G2: dedykowane style szablonu page-o-nas.php (.mf-o-nas) */
+.mf-o-nas .entry-header {
+	border-left: 5px solid var(--mf-accent);
+	padding-left: 1.25rem;
+}
+
+.mf-o-nas .mf-lead {
+	font-size: 1.15rem;
+	font-style: italic;
+	color: #4A5D4E;
+	margin-top: 0.5rem;
+}
+
+.mf-o-nas .mf-company-box {
+	background-color: #EFE8DD;
+	border: 1px solid #8C4A27;
+	border-radius: 6px;
+	padding: 1.5rem;
+	margin-top: 2rem;
+}
+
+.mf-o-nas .mf-company-box h2 {
+	margin-top: 0;
+	color: #8C4A27;
+	font-size: 1.35rem;
+}
