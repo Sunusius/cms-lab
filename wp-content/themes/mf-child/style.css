@@ -1,0 +1,39 @@
+/*
+Theme Name:   MF Child
+Template:     twentytwentyone
+Description:  Motyw potomny dla palarni Ziarno & Kawa (CMS lab, CDV)
+Author:       Mateusz Gierałtowski
+Version:      1.0.0
+Requires PHP: 7.4
+License:      GNU General Public License v2 or later
+Text Domain:  mf-child
+*/
+
+:root {
+	--mf-accent: #8C4A27;
+	--mf-accent-hover: #2C1E16;
+	--mf-heading-font: Georgia, "Times New Roman", serif;
+	--global--color-background: #FAF6F0;
+	--global--color-primary: #2C1E16;
+}
+
+/* Zmiana kroju nagłówków spójnie z identyfikacją Ziarno & Kawa */
+h1, h2, h3, h4, h5, h6,
+.site-title,
+.entry-title {
+	font-family: var(--mf-heading-font);
+	letter-spacing: -0.01em;
+}
+
+/* Zmiana koloru linków */
+a,
+.entry-content a,
+.primary-navigation a {
+	color: var(--mf-accent);
+}
+
+a:hover,
+a:focus,
+.entry-content a:hover {
+	color: var(--mf-accent-hover);
+}

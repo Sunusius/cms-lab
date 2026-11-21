@@ -40,8 +40,13 @@
  # Poprawki ai
  - Wyliczał mi wstępnie przykładowy kontrast dla wariantów. Więc po sprawdzeniu w kalkulatorze Wave wyniki były różne.
 
-  
-
+  # L05 G1 
+  - Stworzono folder mf-child z plikami style.css i functions.css.
+  - aktywowano motyw potomny.
+  - Kolory i krój nagłówków zmienione zgodnie z ziarno-i-kawa/theme.json
+  # Użycie AI dla L05 G1
+  - Wygenerowanie kodu CSS do zmiany kroju nagłówków oraz koloru linków w pliku style.css, motywu potomnego mf-child.
+  - Poprawki: ręczne dopasowanie koloru akcentu #8C4A27 oraz tła #FAF6F0 i tekstu #2C1E16 do dokładnych wartości z pliku ziarno-i-kawa/theme.json z MP1.
 
 
 
