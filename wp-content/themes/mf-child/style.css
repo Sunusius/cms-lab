@@ -63,3 +63,12 @@ a:focus,
 	color: #8C4A27;
 	font-size: 1.35rem;
 }
+/* Zadanie G3: styl notki pod pojedynczym wpisem (.mf-note) */
+.mf-note {
+	background-color: #EFE8DD;
+	border-left: 4px solid var(--mf-accent);
+	padding: 1rem 1.25rem;
+	margin-top: 2rem;
+	font-size: 0.95rem;
+	color: #2C1E16;
+}

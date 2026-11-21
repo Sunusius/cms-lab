@@ -56,6 +56,17 @@
 - Wygenerowanie struktury szablonu `page-o-nas.php` z poprawną pętlą WordPress, funkcjami escapowania, internacjonalizacji oraz dedykowanych stylów CSS dla klasy .mf-o-nas.
 - Poprawki: ręczne poprawianie paragrafów <p> w page-o-nas.php
 
+## L05 G3
+- Dodano w functions.php akcję after_setup_theme (mf_child_setup) ładującą tłumaczenia motywu z katalogu /languages (load_child_theme_textdomain).
+- Dodano filtr excerpt_length skracający automatyczne zajawki wpisów do 22 słów.
+- Dodano filtr the_content (mf_add_note) wyświetlający pod pojedynczym wpisem rzetłumaczalną i bezpieczną notkę .mf-note.
+- Ostylowano klasę .mf-note w style.css zgodnie z paletą MP1.
+
+### Użycie AI dla L05 G3
+- Wygenerowanie kodu filtrów mf_excerpt_length i mf_add_note w functions.php wraz ze stylami CSS dla .mf-note.
+- Poprawki: dopasowanie treści notki kontaktowej oraz stylów ramki aby pasowała wizualnie do projektu Ziarno&Kawa.
+
+
 
 
 Karta projektu MP1 - Ziarno&Kawa
