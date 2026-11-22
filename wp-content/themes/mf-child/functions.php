@@ -31,3 +31,31 @@ function mf_add_note( $content ) {
 	}
 	return $content; // filtr ZAWSZE zwraca wartość
 }
+
+// Zadanie G4: rejestracja własnych stylów bloków (register_block_style)
+add_action( 'init', 'mf_register_block_styles' );
+function mf_register_block_styles() {
+	register_block_style(
+		'core/button',
+		array(
+			'name'         => 'mf-cien',
+			'label'        => __( 'Z cieniem', 'mf-child' ),
+			'inline_style' => '.wp-block-button.is-style-mf-cien .wp-block-button__link {'
+				. ' box-shadow: 0 4px 0 var(--mf-accent, #8C4A27); }',
+		)
+	);
+
+	register_block_style(
+		'core/group',
+		array(
+			'name'         => 'mf-karta',
+			'label'        => __( 'Karta', 'mf-child' ),
+			'inline_style' => '.wp-block-group.is-style-mf-karta {'
+				. ' background-color: #EFE8DD;'
+				. ' color: #2C1E16;'
+				. ' border: 1px solid var(--mf-accent, #8C4A27);'
+				. ' border-radius: 8px;'
+				. ' padding: 1.5rem; }',
+		)
+	);
+}

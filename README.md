@@ -66,6 +66,14 @@
 - Wygenerowanie kodu filtrów mf_excerpt_length i mf_add_note w functions.php wraz ze stylami CSS dla .mf-note.
 - Poprawki: dopasowanie treści notki kontaktowej oraz stylów ramki aby pasowała wizualnie do projektu Ziarno&Kawa.
 
+## L05 G4 ![Własne style bloków Karta i Z cieniem oraz weryfikacja kontrastu WCAG](g4-style-blokow.png)
+- Zarejestrowano styl "z cieniem" dla bloku core/button oraz styl karta dla core/group.
+- Sprawdzono kontrast tekstu dla grupy na stronie oferta, który wynosi 13.22 zgodnie z wymogami WCAG.
+
+# użycie AI 
+- Pomgół w wygenerowaniu kodu dla funkcji mf_register_block_styles() dla stylu mf-karta dla bloku core/group oraz stylu mf-cień dla core/button.
+- Poprawki: dobór kolorów z palety MP1 #EFE8DD #2C1E16 #8C4A27 spełniających normę kontrastu WCAG 2.2 oraz weryfikacja w edytorze i DevTools
+
 
 
 
