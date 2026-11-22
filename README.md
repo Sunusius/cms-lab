@@ -1,4 +1,28 @@
 ## Karta Projektu MP2 - Ziarno&Kawa
+
+## MP2 — Podsumowanie własnych motywów (mf-child i ziarno-i-kawa L04–L05)
+W ramach laboratoriów L04–L05 przygotowałem dwa motywy w wp-content/themes/ : motyw potomny mf-child (na bazie Twenty Twenty-One) oraz motyw blokowy ziarno-i-kawa.
+
+### Struktura motywu potomnego (wp-content/themes/mf-child/)
+- style.css — nagłówek motywu potomnego (Template: twentytwentyone) i style dla wariantów bloków (mf-cien, mf-karta).
+- functions.php — ładowanie stylów rodzica i potomka (funkcje z prefiksem mf_), rejestracja stylów bloków (register_block_style) i dynamicznego bloku (register_block_type).
+- page-o-nas.php — własny szablon strony „O nas”.
+- languages/ — katalog na pliki tłumaczeń motywu.
+- blocks/info-firmy/ (block.json, index.asset.php, index.js, render.php) — dynamiczny blok wyświetlający nazwę firmy i klikalny numer telefonu.
+
+### Struktura motywu blokowego (wp-content/themes/ziarno-i-kawa/)
+- theme.json — ustawienia kolorów, czcionek i stylów dla strony Ziarno&Kawa.
+- templates/ (index.html, archive.html, 404.html, single.html, page.html) — szablony stron.
+- parts/ (header.html, footer.html) — nagłówek i stopka.
+- patterns/ — własne wzorce bloków dla sekcji kawiarni i palarni.
+- styles/ (ciemny.json, sezonowy.json) — dodatkowe warianty kolorystyczne motywu.
+
+### Decyzje projektowe i zmiany względem motywu bazowego oraz MP1
+- Motyw potomny zamiast edycji oryginału (L04): Zamiast grzebać w plikach Twenty Twenty-One, zrobiłem motyw potomny mf-child z prefiksem mf_, żeby aktualizacje motywu nie nadpisały moich zmian.
+- Zmiany względem MP1 (L04-L05): W MP1 strona Ziarno&Kawa działała na domyślnym motywie blokowym Twenty Twenty-Five. W MP2 dodałem własny kod — szablon page-o-nas.php, katalog languages/ oraz dwa style bloków (mf-cien i mf-karta) z poprawionym kontrastem pod WCAG 2.2.
+- Motyw blokowy FSE (L05): Przy pomocy wtyczki Create Block Theme stworzyłem osobny motyw ziarno-i-kawa z własnym theme.json, szablonami (index, archive, 404), częściami header i footer, wzorcami w patterns/ oraz dwoma wariantami stylów (ciemny.json, sezonowy.json).
+- Dynamiczny blok bez npm (L05 B1-B3): Blok mf-child/info-firmy działa bez budowania przez Node/npm — używa block.json, ServerSideRender w index.js i renderowania w render.php z esc_html() oraz esc_url(). Dzięki temu zmiana nazwy lub telefonu aktualizuje się od razu na stronie „O nas” i w stopce.
+
 # L04
 # Zad G1 utworzono szkielet motywu. Motyw zgodnie z instrukcją widoczny jest w zakładce motywy.
 
