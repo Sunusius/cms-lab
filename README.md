@@ -74,6 +74,24 @@
 - Pomgół w wygenerowaniu kodu dla funkcji mf_register_block_styles() dla stylu mf-karta dla bloku core/group oraz stylu mf-cień dla core/button.
 - Poprawki: dobór kolorów z palety MP1 #EFE8DD #2C1E16 #8C4A27 spełniających normę kontrastu WCAG 2.2 oraz weryfikacja w edytorze i DevTools
 
+## L05 B1–B3 Zadania dodatkowe
+
+  # Utworzono katalog blocks/info-firmy oraz pliki:
+   - block.json, który zarejestrowano w functions.php przez funkcje register_block_type() 
+   - index.js i i index.asset.php. Dzięki temu skrypt index.js ładuje się po bibliotekach wordpressa i korzysta z globalnych obiektów
+     window.wp i ServerSideRender do podglądu na żywo w edytorze.
+   - render.php wypisujący nazwe witryny oraz klilalny numer telefonu z ucieczką danych. Blok wstawiono na stronie O nas oraz do stópki w obszarze widżetów
+
+  # Dlaczego blok jest dynamiczny a nie statyczny?
+  - Blok nie zapisuje gotowego kodu HTML w bazie danych save() zwraca null, lecz przy każdym wyświetleniu strony generuje go na żywo na serwerze w pliku render.php. Dzięki temu zmiana nazwy firmy lub numeru telefonu w jednym miejscu od razu aktualizuje się wszędzie (na stronie „O nas” i w stopce), bez ręcznego poprawiania każdej podstrony.
+
+
+### Użycie AI dla L05 B1–B3
+- Pomoc we wdrożeniu gotowej struktury plików block.json, index.asset.php, index.js, render.php z instrukcji zadania dla bloku mf-child/info-firmy oraz rejestracji w functions.php.
+- Poprawki: dostosowanie numeru telefonu do projektu Ziarno&Kawa, weryfikacja escapingu esc_html`, `esc_url oraz osadzenie bloku na stronie „O nas” i w stopce.
+
+
+
 
 
 

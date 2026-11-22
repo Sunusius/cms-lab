@@ -59,3 +59,6 @@ function mf_register_block_styles() {
 		)
 	);
 }
+
+// Zadanie B1-B3: rejestracja dynamicznego bloku Informacja o firmie
+add_action( 'init', fn() => register_block_type( get_stylesheet_directory() . '/blocks/info-firmy' ) );
